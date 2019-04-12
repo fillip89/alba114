@@ -1,0 +1,81 @@
+@media (max-width: 425px) {
+  .moon{
+    right: 10px;
+    -webkit-animation: moon 3s infinite;
+    -ms-animation: moon 3s infinite;
+    -moz-animation: moon 3s infinite;
+    -o-animation: moon 3s infinite;
+    animation: moon 3s infinite;
+  }
+  @keyframes moon {
+    0%{
+      -webkit-transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    50%{
+      -webkit-transform: scale(0.55);
+      -moz-transform: scale(0.55);
+      -ms-transform: scale(0.55);
+      -o-transform: scale(0.55);
+      transform: scale(0.55);
+    }
+    100%{
+      -webkit-transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
+  .headerP{
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+  .section1 .section1Title{
+    font-size: 15px;
+  }
+  .section1 .section1Article p:nth-child(1),
+  .section1 .section1Article p:nth-child(2){
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+  .sectionBridge1 p:nth-child(1),
+  .sectionBridge1 p:nth-child(2){
+    font-size: 15px;
+  }
+  .section2{
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+  .cloud{
+    font-size: 60px;
+  }
+  .section2PriceContainer{
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  .sectionBridge2Article{
+    font-size: 22px;
+  }
+  span.mapArticle{
+    font-size: 16px;
+  }
+  span.mapArticleThx{
+    font-size:22px
+  }
+}
