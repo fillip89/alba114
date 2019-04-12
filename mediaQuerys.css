@@ -1,3 +1,15 @@
+@media (max-width: 360px) {
+  .headerP{
+    font-size: 30px;
+  }
+  div.hello{
+    font-size: 30px;
+  }
+  div.name{
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 425px) {
   .moon{
     right: 10px;
